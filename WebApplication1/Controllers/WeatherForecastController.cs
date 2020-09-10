@@ -35,5 +35,11 @@ namespace WebApplication1.Controllers
             })
             .ToArray();
         }
+        [HttpGet]
+        [Route("GetAllDetails")]
+        public string GetAllDetails()
+        {
+            return "Welcome to my api";
+        }
     }
 }
